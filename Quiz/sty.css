@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url(day7.gif);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    position:absolute;
+    left: 50%;
+    bottom: 15%;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    border: 3px dotted black;
+    border-radius: 20px;
+
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="email"],.box input[type="password"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.box input[type="email"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+
+}
+.box input[type="submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:focus{
+    background: #ffc400ec;
+}
+.tex{
+    padding-top: 20px;
+    padding-left: 250px;
+    font-family: sans-serif;
+    color:burlywood;
+    font-size: 60px;
+    
+}

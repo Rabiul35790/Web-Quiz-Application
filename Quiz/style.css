@@ -1,0 +1,247 @@
+/* coding with nick */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:lightseagreen;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(ak.webp);
+  background-repeat: no-repeat;
+}
+.hbody{
+  background:linear-gradient(to top, rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%), url(ns.webp);
+}
+.bit.tex{
+  background-color: #000;
+}
+.link{
+  padding-bottom: 100px;
+}
+.bit{
+  padding-left: 80px;
+  padding-top: 60px;
+}
+.search input[type="submit"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #ffc400ec;
+  padding: 8px 17px;
+  outline: none;
+  color: white;
+  margin-top: 13px;
+  transition: 0.25px;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 40px;
+}
+.box input[type="submit"]:hover{
+  background: #ffc400ec;
+}
+.quiz-container{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 700px;
+  color: #000;
+  overflow: hidden;
+}
+.quiz-header{
+  padding: 4rem;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover{
+  background-color: #04adc4;
+}
+button:focus{
+  outline: none;
+  background-color: #44b927;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+
+.navbar{
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  background-color:darkgreen;
+  background-image: url(nb.jpg);
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: black;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+}
+
+.menu{
+  width: 500px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+  padding-left: 30px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid black;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:darkslategray;
+    border: 2px solid #fff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-decoration: dashed;
+    font-size:large;
+}
+.btn:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+  width: 1200px;
+  height: 1200px;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  padding-top: 120px;
+  padding-left: 200px;
+  
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.footer{
+  padding-top: 150px;
+  padding-left: 260px;
+}
+.set{
+  padding-top: 500px;
+  float: left;
+}
+.footer1{
+padding-top: 400px;
+padding-left: 260px;
+}
